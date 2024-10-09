@@ -1,31 +1,20 @@
 <script>
+	import Image from './Image.svelte';
+
 	export let animated = true;
 </script>
 
 <div class="logo" class:animated>
-	<svg
-		id="logo-text"
-		width="723.84009"
-		height="116.720268"
-		viewBox="0 0 723.84009 116.720269"
-		fill="none"
-		xmlns="http://www.w3.org/2000/svg"
-	>
-		<text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)"
-			><tspan x="275.57227" y="292.17088" id="tspan1319"
-				><tspan style="font-size:106.667px;font-family:YoungSerif;" id="tspan1317">Jason Li</tspan
-				></tspan
-			></text
-		>
-	</svg>
+	<div class="logo" class:animated>
+		<Image src="/images/logo.png" alt="Jason Li Logo" />
+	</div>
 </div>
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
 	.logo {
-		width: auto;
-		height: 100%;
+		width: 80px;
 
 		display: flex;
 		gap: 16px;
