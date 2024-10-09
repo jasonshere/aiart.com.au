@@ -13,8 +13,12 @@
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
+	.logo.text {
+		width: 100px;
+	}
+
 	.logo {
-		width: 80px;
+		width: 60px;
 
 		display: flex;
 		gap: 16px;
