@@ -6,7 +6,7 @@
 </script>
 
 <div class="logo" class:animated>
-	<Image src="/images/brain.svg" alt="Logo" />
+	<Image src="/images/line.gif" alt="Logo" />
 </div>
 
 <style lang="scss">
@@ -17,7 +17,7 @@
 	}
 
 	.logo {
-		width: 70px;
+		width: 150px;
 		// height: 100%;
 
 		display: flex;
