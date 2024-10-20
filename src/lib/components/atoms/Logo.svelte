@@ -1,13 +1,12 @@
 <script>
 	import Image from './Image.svelte';
+	import { theme } from '$lib/stores/theme';
 
 	export let animated = true;
 </script>
 
 <div class="logo" class:animated>
-	<div class="logo" class:animated>
-		<Image src="/images/logo.png" alt="Jason Li Logo" />
-	</div>
+	<Image src="/images/brain.svg" alt="Logo" />
 </div>
 
 <style lang="scss">
@@ -18,7 +17,8 @@
 	}
 
 	.logo {
-		width: 60px;
+		width: 70px;
+		// height: 100%;
 
 		display: flex;
 		gap: 16px;

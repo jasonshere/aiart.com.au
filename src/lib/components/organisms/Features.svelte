@@ -7,9 +7,9 @@
 </script>
 
 <ContentSection
-	id="features"
-	title="Features"
-	description="Here are some of the features of this template"
+	id="publications"
+	title="Publications"
+	description="Dive into my collection of research contributions in the fields of machine learning, deep learning, recommendation systems, fairness, and Explainable AI. Each publication explores key advancements and insights aimed at pushing the boundaries of AI and ensuring transparency and equity in intelligent systems."
 >
 	<div class="features-container">
 		<div class="three-group-grid">
@@ -19,6 +19,7 @@
 					description={feature.description}
 					image={feature.image}
 					tags={feature.tags}
+					link={feature.link}
 				/>
 			{/each}
 		</div>
@@ -38,7 +39,7 @@
 	.three-group-grid {
 		width: 100%;
 		display: grid;
-		grid-template-columns: 2fr 1fr;
+		// grid-template-columns: 3fr 1fr;
 		grid-gap: 20px;
 
 		@media (max-width: 1085px) {

@@ -2,17 +2,20 @@
 	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
 	import Image from '../atoms/Image.svelte';
+	import Avatar from '../atoms/Avatar.svelte';
+	import AvatarWithBlobs from '../molecules/AvatarWithBlobs.svelte';
 </script>
 
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			I’m building AI-driven systems, designed to inspire and solve <SparklingHighlight
+				color="secondary">intelligently</SparklingHighlight
+			>.
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			With a strong foundation in data science and a drive for continuous learning, I believe that
+			technology should empower both its creators and users.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
@@ -20,7 +23,7 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image src="/images/arm.webp" alt="Sample for the static template" />
+		<AvatarWithBlobs />
 	</div>
 </section>
 

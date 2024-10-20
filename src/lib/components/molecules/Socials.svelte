@@ -8,24 +8,24 @@
 </script>
 
 <div class="socials">
-	<a
+	<!-- <a
 		href="#"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Say Hi on Telegram"
 	>
 		<TelegramIcon />
-	</a>
-	<a
+	</a> -->
+	<!-- <a
 		href="#"
 		target="_blank"
 		rel="me noreferrer"
 		title="Say Hi on Mastodon"
 	>
 		<MastodonIcon />
-	</a>
+	</a> -->
 	<a
-		href="#"
+		href="https://github.com/jasonshere"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
@@ -33,7 +33,7 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="#"
+		href="https://www.linkedin.com/in/jie-li-phd-4a1003146/"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -41,7 +41,7 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
+		href="mailto:hey.jieli@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"

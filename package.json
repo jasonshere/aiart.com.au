@@ -20,6 +20,8 @@
 		"vercel-build": "npm run build && npm run vercel-sitemap && npm run vercel-optimize-images"
 	},
 	"devDependencies": {
+		"@fontsource/roboto": "^5.1.0",
+		"@fontsource/workbench": "^5.1.0",
 		"@histoire/plugin-svelte": "^0.16.1",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.0.0",

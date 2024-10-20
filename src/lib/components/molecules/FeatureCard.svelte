@@ -8,9 +8,10 @@
 	export let description: string;
 	export let image: string;
 	export let tags: TagType[] | undefined;
+	export let link: string | undefined;
 </script>
 
-<Card additionalClass="feature-card">
+<Card additionalClass="feature-card" href={link}>
 	<div class="image" slot="image">
 		<Image src={image} alt="Picture describing the {name} feature" />
 	</div>
@@ -62,6 +63,7 @@
 	}
 
 	:global(.feature-card .image img) {
-		object-fit: cover;
+		// object-fit: cover;
+		padding: 15px;
 	}
 </style>

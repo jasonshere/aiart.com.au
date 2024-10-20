@@ -14,14 +14,15 @@ export type TagType = {
 }
 
 export type SocialLink = {
-  
+
 }
 
 export type Feature = {
   name: string,
   description: string,
   image: string,
-  tags: TagType[]
+  tags: TagType[],
+  link?: string
 }
 
 export type BlogPost = {
