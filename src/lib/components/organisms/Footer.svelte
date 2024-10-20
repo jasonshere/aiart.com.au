@@ -3,6 +3,8 @@
 	import Socials from '$lib/components/molecules/Socials.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
+
+	let currentYear = new Date().getFullYear();
 </script>
 
 <footer>
@@ -11,17 +13,19 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
-				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
-			>.
+			© {currentYear} Jason Li. Made in Australia.
 		</div>
 		<div class="credits">
 			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
 				>SvelteKit</a
 			>. Icons by
-			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
+			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>. Template
+			by
+			<a
+				href="https://fantinel.dev?utm_source=site-template"
+				target="_blank"
+				rel="noopener noreferrer">Matheus Fantinel</a
+			>.
 		</div>
 		<div class="socials">
 			<Socials />

@@ -33,5 +33,4 @@ export default [
     link: 'https://arxiv.org/abs/2407.02839',
     tags: [{ label: 'Quantum Computing', color: 'secondary' }, { label: 'QUBO', color: 'secondary' }, { label: '2024' }]
   },
-
 ] as Feature[];
