@@ -14,12 +14,7 @@
 		</a>
 		<div class="links">
 			<div class="menu-wrapper">
-				<HamburgerMenu
-					links={[
-						{ href: '/blog', text: 'Blog' },
-						{ href: '/resume', text: 'Resume' }
-					]}
-				/>
+				<HamburgerMenu links={[{ href: '/', text: 'Home' }]} />
 			</div>
 			<ThemeToggle />
 		</div>
@@ -32,7 +27,6 @@
 	header {
 		position: relative;
 		padding: 30px 0;
-		// margin-bottom: 50px;
 
 		@include for-phone-only {
 			padding: 20px 0;

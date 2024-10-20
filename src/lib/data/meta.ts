@@ -2,20 +2,22 @@
 // So they can be added as suffixes on different pages
 // Via <svelte:head>
 
-export const siteBaseUrl = 'https://sveltekit-static-blog-template.vercel.app/';
+export const siteBaseUrl = 'https://www.aiart.com.au/';
 
 export const keywords = [
-	'Svelte',
-	'SvelteKit',
-	'Template',
-	'Blog',
-	'Starter',
-	'Static Site'
+	'Jason',
+	'Machine Learning',
+	'AI',
+	'Artificial Intelligence',
+	'Python',
+	'Research',
 ];
 
 export const description =
-	"A light, neat, and easy-to-use SvelteKit template for your next website.";
+	"Dr. Jason's personal website. Machine Learning Engineer, AI Researcher.";
 
-export const title = 'SvelteKit Static Blog Template';
+export const title = 'Dr.Jason - Machine Learning Engineer';
 
 export const image = `${siteBaseUrl}/images/site-preview.png`;
+
+export const showPosts = false;
