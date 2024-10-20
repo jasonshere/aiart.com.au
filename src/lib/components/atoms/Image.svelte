@@ -5,7 +5,7 @@
 	export let alt: string;
 	export let fullBleed: boolean | undefined = undefined;
 
-	export let formats: string[] = ['avif', 'webp', 'png', 'gif'];
+	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
 
 	$: fileName = src.split('.')[0];
@@ -13,7 +13,7 @@
 	function buildSrcset() {
 		if (dev) return;
 
-		let srcset = '';
+		let srcset = 'gif';
 
 		if (widths) {
 			for (let i = 0; i < widths.length; i++) {
