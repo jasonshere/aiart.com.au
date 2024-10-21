@@ -13,7 +13,7 @@
 	function buildSrcset() {
 		if (dev) return;
 
-		let srcset = 'gif';
+		let srcset = '';
 
 		if (widths) {
 			for (let i = 0; i < widths.length; i++) {
