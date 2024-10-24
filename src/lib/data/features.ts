@@ -33,4 +33,12 @@ export default [
     link: 'https://arxiv.org/abs/2407.02839',
     tags: [{ label: 'Quantum Computing', color: 'secondary' }, { label: 'QUBO', color: 'secondary' }, { label: '2024' }]
   },
+  {
+    name: 'Performance-Driven QUBO for Recommender Systems on Quantum Annealers',
+    description:
+      'We propose CAQUBO for feature selection in recommender systems, leveraging counterfactual analysis with quantum annealing to optimize feature combinations and improve recommendation performance, outperforming existing quantum methods.',
+    image: 'images/features/CAQUBO.png',
+    link: 'https://arxiv.org/abs/2410.15272',
+    tags: [{ label: 'Quantum Computing', color: 'secondary' }, { label: 'QUBO', color: 'secondary' }, { label: '2024' }]
+  },
 ] as Feature[];

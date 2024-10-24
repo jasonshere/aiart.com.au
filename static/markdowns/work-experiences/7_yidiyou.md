@@ -1,6 +1,6 @@
 ---
 companySlug: secondary
-company: Yi Diyou Technology Co., Ltd.
+company: Yi Diyou Tech
 jobTitle: Software Engineering Lecturer
 timeframe: June 2011 ~ October 2013
 location: Beijing

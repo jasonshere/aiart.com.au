@@ -1,6 +1,6 @@
 ---
 companySlug: secondary
-company: Tarena International, Inc.
+company: Tarena
 jobTitle: Senior Software Engineering Lecturer
 timeframe: October 2013 ~ July 2015
 location: Beijing

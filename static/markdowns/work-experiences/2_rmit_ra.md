@@ -9,16 +9,10 @@ description:
 technologies: 
   - label: Quantum Computing
     color: secondary
-  - label: Counterfactual Analysis
   - label: Explainable AI
     color: secondary
-  - label: Large Language Model
   - label: Recommender Systems
     color: secondary
-  - label: GAN
-  - label: GNN
-  - label: Attention
-  - label: RNN
   - label: QUBO
 ---
 
