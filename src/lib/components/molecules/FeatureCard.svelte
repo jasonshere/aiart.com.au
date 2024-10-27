@@ -63,7 +63,7 @@
 	}
 
 	:global(.feature-card .image img) {
-		// object-fit: cover;
+		object-fit: cover;
 		padding: 15px;
 	}
 </style>

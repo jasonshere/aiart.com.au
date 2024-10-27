@@ -2,6 +2,7 @@
 	import type { Feature } from '$lib/utils/types';
 	import FeatureCard from '$lib/components/molecules/FeatureCard.svelte';
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
+	import Button from '../atoms/Button.svelte';
 
 	export let features: Feature[];
 </script>
@@ -24,6 +25,9 @@
 			{/each}
 		</div>
 	</div>
+	<div slot="button">
+		<Button href="/publications">View More</Button>
+	</div>
 </ContentSection>
 
 <style lang="scss">
@@ -39,7 +43,7 @@
 	.three-group-grid {
 		width: 100%;
 		display: grid;
-		// grid-template-columns: 3fr 1fr;
+		// grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
 
 		@media (max-width: 1085px) {

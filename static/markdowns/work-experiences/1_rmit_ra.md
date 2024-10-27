@@ -1,7 +1,7 @@
 ---
 companySlug: secondary
 company: RMIT University
-jobTitle: AI Research Mentor
+jobTitle: Machine Learning Researcher
 timeframe: April 2023 ~ Present
 location: Melbourne
 description: 
