@@ -4,6 +4,7 @@
 	import Image from '../atoms/Image.svelte';
 	import Avatar from '../atoms/Avatar.svelte';
 	import AvatarWithBlobs from '../molecules/AvatarWithBlobs.svelte';
+	import Skills from '../molecules/Skills.svelte';
 </script>
 
 <section id="about">
@@ -22,9 +23,10 @@
 			<Socials />
 		</div>
 	</div>
-	<div class="image">
+	<Skills />
+	<!-- <div class="image">
 		<AvatarWithBlobs />
-	</div>
+	</div> -->
 </section>
 
 <style lang="scss">
@@ -33,7 +35,7 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 250px;
+		grid-template-columns: 500px 800px;
 		align-items: center;
 		justify-content: space-between;
 		padding-bottom: 50px;
