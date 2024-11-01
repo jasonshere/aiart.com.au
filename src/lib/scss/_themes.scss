@@ -20,6 +20,18 @@
 	@include define-color('post-page-background', #f3fbfc);
 	@include define-color('card-background', #ffffff);
 
+	// Used for highlights in Work Experience
+	@include define-color('dabble-tint', #f8e6a0);
+	@include define-color('rmit-tint', #eadbff);
+	@include define-color('littleoffice-tint', #bcebeb);
+	@include define-color('loyalty-tint', #ffe2ce);
+	@include define-color('qihoo-tint', #cce4ff);
+	@include define-color('promob-tint', #d7e6eb);
+
+	@include define-color('blockquote-background', #eff1f3);
+	@include define-color('marker-primary-background', #c4eeee);
+	@include define-color('marker-secondary-background', #d7d1fa);
+
 	// Used for Callout component
 	@include define-color('callout-background', #f4f8fb);
 	@include define-color('callout-background--info', #dfeffd);
@@ -63,6 +75,18 @@
 	@include define-color('page-background', #1c1e26);
 	@include define-color('post-page-background', #141519);
 	@include define-color('card-background', #32343e);
+
+	// Used for highlights in Work Experience
+	@include define-color('usefulgroup-tint', #8e740b);
+	@include define-color('agora-tint', #3d009e);
+	@include define-color('freelancer-tint', #1d6262);
+	@include define-color('logitix-tint', #924817);
+	@include define-color('sige-tint', #003e85);
+	@include define-color('promob-tint', #2b4a55);
+
+	@include define-color('blockquote-background', #1c1e26);
+	@include define-color('marker-primary-background', #076464);
+	@include define-color('marker-secondary-background', #a66eaf);
 
 	// Used for Callout component
 	@include define-color('callout-background', #1c1e26);

@@ -1,5 +1,5 @@
 ---
-companySlug: secondary
+companySlug: loyalty
 company: Loyalty Corp
 jobTitle: Full-Stack Engineer
 timeframe: November 2018 ~ January 2019

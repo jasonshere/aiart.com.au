@@ -6,7 +6,6 @@
 	import type { Feature, BlogPost } from '$lib/utils/types';
 	import Experience from '$lib/components/organisms/Experience.svelte';
 	import type WorkExperience from '$lib/data/work-experiences/model';
-	import Skills from '$lib/components/molecules/Skills.svelte';
 
 	export let data: {
 		features: Feature[];

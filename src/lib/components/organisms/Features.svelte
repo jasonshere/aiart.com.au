@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	<div slot="button">
-		<Button href="/publications">View More</Button>
+		<Button href="/publication">View More</Button>
 	</div>
 </ContentSection>
 

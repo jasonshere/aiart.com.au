@@ -1,5 +1,5 @@
 ---
-companySlug: secondary
+companySlug: rmit
 company: RMIT University
 jobTitle: Machine Learning Researcher
 timeframe: April 2023 ~ Present

@@ -1,5 +1,4 @@
 <script>
-	import Avatar from '../atoms/Avatar.svelte';
 	import Image from '../atoms/Image.svelte';
 </script>
 

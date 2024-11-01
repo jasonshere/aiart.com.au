@@ -1209,7 +1209,7 @@
 		top: 17%;
 		left: 32%;
 		opacity: 0;
-		z-index: 1;
+		z-index: 100;
 		transform: translateY(-110%);
 	}
 

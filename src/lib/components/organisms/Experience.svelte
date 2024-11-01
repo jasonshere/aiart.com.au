@@ -13,9 +13,9 @@
 	title="Work Experience"
 	description="Over the past {yearsOfExperience}+ years, I've worked on a lot of cool projects with great people."
 >
-	<div slot="button">
+	<!-- <div slot="button">
 		<Button color="secondary" href="/resume">View Resume</Button>
-	</div>
+	</div> -->
 	<div class="grid">
 		{#each entries as entry}
 			<ExperienceCard

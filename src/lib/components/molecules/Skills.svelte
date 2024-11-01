@@ -3,6 +3,38 @@
 	// Array of skills with positions and animations
 	const skills = [
 		{
+			name: 'Sklearn',
+			experience: '1 Years',
+			imgSrc: './images/sklearn.png',
+			top: '50%',
+			left: '75%',
+			animationClass: 'anim-float-card-up'
+		},
+		{
+			name: 'MLFlow',
+			experience: '1 Years',
+			imgSrc: './images/mlflow.svg',
+			top: '20%',
+			left: '80%',
+			animationClass: 'anim-float-card-up'
+		},
+		{
+			name: 'Software Engineering',
+			experience: '12 Years',
+			imgSrc: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+			top: '70%',
+			left: '50%',
+			animationClass: 'anim-float-card-up'
+		},
+		{
+			name: 'RecSys',
+			experience: '5 Years',
+			imgSrc: './images/recommendations.svg',
+			top: '30%',
+			left: '45%',
+			animationClass: 'anim-float-card-up'
+		},
+		{
 			name: 'Python',
 			experience: '5 Years',
 			imgSrc: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
@@ -22,16 +54,16 @@
 			name: 'Machine Learning',
 			experience: '5 Years',
 			imgSrc: './images/brain.svg',
-			top: '70%',
-			left: '30%',
+			top: '50%',
+			left: '25%',
 			animationClass: 'anim-float-card-up'
 		},
 		{
 			name: 'ETL',
 			experience: '5 Years',
 			imgSrc: './images/data.png',
-			top: '50%',
-			left: '18%',
+			top: '60%',
+			left: '25%',
 			animationClass: 'anim-float-card-down'
 		},
 		{
@@ -79,8 +111,8 @@
 		{
 			name: 'Deep Learning',
 			experience: '5 Years',
-			imgSrc: './images/arm.webp',
-			top: '40%',
+			imgSrc: './images/arm.gif',
+			top: '35%',
 			left: '75%',
 			animationClass: 'anim-float-card-down'
 		},
@@ -97,11 +129,11 @@
 
 <div class="container">
 	<!-- Background Circles -->
-	<div class="bg-circles">
+	<!-- <div class="bg-circles">
 		<div class="outer-circle">
 			<div class="inner-circle" />
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Floating Elements -->
 	<!-- Avatar -->

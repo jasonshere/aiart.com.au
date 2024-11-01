@@ -1,5 +1,5 @@
 ---
-companySlug: primary
+companySlug: dabble
 company: Dabble
 jobTitle: Machine Learning Engineer
 timeframe: March 2024 ~ Present

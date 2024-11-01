@@ -1,5 +1,5 @@
 ---
-companySlug: secondary
+companySlug: littleoffice
 company: The Little Office
 jobTitle: Lead Full-Stack Engineer
 timeframe: May 2021 ~ March 2024
